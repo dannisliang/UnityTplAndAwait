@@ -25,4 +25,4 @@ UnitySynchronizationContext 是随便写的，测试使用。
 
 其实 unity 上常规使用 await/async，可能更在乎的是异步逻辑，而 tpl 中的并发相关，用处不大，可以精简掉。
 
-我正在写一个利用 unity3d 原生迭代器协程模拟 await/async 的异步框架。
+Unity 支持 yield 出去一个 Coroutine 对象，也就是 python yield from 的功能，这个和 await/async 已经非常接近了，更推荐使用这种方案。
